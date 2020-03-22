@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: vasselva/podinfo
-      tag: dev-ftlwqx9t
+      tag: dev-6fkdsbdx
     replicaCount: 1
     hpa:
       enabled: false
