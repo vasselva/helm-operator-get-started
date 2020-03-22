@@ -14,8 +14,8 @@ spec:
     ref: master
   values:
     image:
-      repository: stefanprodan/podinfo
-      tag: 3.2.0
+      repository: vasselva/podinfo
+      tag: dev-ftlwqx9t
     replicaCount: 1
     hpa:
       enabled: false
