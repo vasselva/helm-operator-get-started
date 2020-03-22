@@ -1,3 +1,4 @@
+---
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
@@ -15,7 +16,7 @@ spec:
   values:
     image:
       repository: stefanprodan/podinfo
-      tag: 3.2.0
+      tag: dev-hdtwcel9
     replicaCount: 1
     hpa:
       enabled: false
